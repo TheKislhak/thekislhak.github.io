@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://storage.modworkshop.net/mods/images/85614_1663405886_1bd3804db92969bde78399ada8ca018b.webp);
+    background-attachment: fixed;
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+    background-size: cover; /* Faz com que a imagem cubra toda a área de fundo */
+}
+
+@font-face {
+    font-family: 'Omori';
+    src: url('/doc/Omori-fonts/OMORI_GAME2.ttf') format('truetype');
+    font-weight: normal;
+    font-size: normal;
+}
+
+aside {
+    font-family: 'Omori';
+    font-size: 50px;
+    line-height: -110;
+    background-color: rgb(0, 0, 0);
+    width: 300px;
+    height: 934px; /* Altura fixa para testes */
+    margin: 0px; /* Espaço ao redor do aside */
+    border: 5px solid white;
+    padding: 7.7px;
+    position: absolute; /* Fixa o aside em uma posição específica */
+    top: 0; /* Posiciona no topo da página */
+    left: 0; /* Posiciona no canto esquerdo da página */
+    z-index: 5; /* Garante que o aside fique abaixo do nav */
+    line-height: 1.2; /* Ajustado para um valor positivo adequado */
+    height: 100vh; /* Ajusta a altura para ocupar toda a altura visível da janela */
+    margin: 0;
+    padding: 10px;
+    position: fixed; /* Fixa o aside durante o scroll */
+    z-index: 10; /* Garante que o aside fique acima do conteúdo se necessário */
+    box-sizing: border-box; /* Inclui padding e border no cálculo de largura e altura */
+   
+}
+
+nav {
+    background-color: rgb(0, 0, 0);
+    display: flexbox;
+    height: 100px;
+    border: 5px solid rgb(255, 255, 255);
+    font-family: 'Omori';
+    position: relative;
+    padding-left: 320px; /* 300px (largura do aside) + 20px (espaço extra) */
+    display: flex;
+    align-items: center; /* Centraliza verticalmente o conteúdo */
+}
+
+
+.blog {
+    background-color: rgb(255, 255, 255);
+    padding: solid 5px;
+    font-family: 'Omori';
+    font-size: 40px;
+    width: 50%; /* Ajuste esta porcentagem conforme necessário */
+    height: 5100px; /* Altura definida, ajuste conforme necessário */
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border: 5px solid black; /* Define a borda preta */
+    padding: 10px; /* Espaço interno para o conteúdo */
+}
+
+.palavracolorida {
+    color:rgb(255, 255, 255);
+}
+
+.palaranav {
+    color: white;
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: left; /* Garante que o texto esteja alinhado à esquerda dentro do nav */
+    margin-right: 23px; /* Espaço à direita */
+}
+
+a.palaranav {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Mantém a cor do texto do span */
+}
+
+a.palaranav:hover {
+    color: yellow; /* Muda a cor do texto quando o link é sobrevoado */
+}
+
+/* Estilo para a combinação de texto e imagem */
+.perfil {
+    display: flex;
+    align-items: center;
+    margin-left: 320px; /* Mantém o mesmo espaçamento que você usava para o texto */
+}
+
+.perfil img {
+    margin-right: 10px; /* Espaço entre a imagem e o texto */
+    border-radius: 50%; /* Faz a imagem ficar redonda, se for quadrada */
+}
+
+.perfil p {
+    margin: 0;
+    font-size: 50px; /* Ajuste o tamanho do texto para manter o estilo */
+    color: white; /* Mantém a cor branca para o texto */
+    text-align: left; /* Alinha o texto à esquerda */
+    position: relative;
+}
+
+.pag {
+    color: white;
+    font-size: 50px; /* Ajuste o tamanho da fonte conforme necessário */
+    text-align: left; /* Garante que o texto esteja alinhado à esquerda dentro do nav */
+    margin-right: 23px; /* Espaço à direita */
+}
+
+a.pag{
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Mantém a cor do texto do span */
+}
+
+a.video {
+    text-decoration: none; /* Remove o sublinhado do link */
+    color: inherit; /* Mantém a cor do texto do span */
+}
+
+a.video:hover {
+    color: yellow; /* Muda a cor do texto quando o link é sobrevoado */
+}
+
+.sunny {
+    padding-left: 250px;
+}
+
+.aubrey {
+    padding-left: 250px;
+}
+
+.kel {
+    padding-left: 210px;
+}
+
+.hero {
+    padding-left: 250px;
+}
+
+.mari {
+    padding-left: 250px;
+}
+
+.blogp{
+    background-color: rgb(255, 255, 255);
+    padding: solid 5px;
+    font-family: 'Omori';
+    font-size: 40px;
+    width: 50%;
+    height: 635px;
+    margin: 0 auto;
+    border: 5px solid black;
+    padding: 10px;
+}
+
+.fotoparaperfil{
+    display: flex;
+    align-items: center;
+    margin-left: 400px;
+    border-radius: 50%;
+    margin-top: -198px;
+}
+
+.textoperfil{
+    margin-left: 60px;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+}
